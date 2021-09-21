@@ -47,6 +47,24 @@ const swiper = new Swiper('.swiper', {
   }
 })
 
+/* ScrollReveal: Mostrar elementos quando der scroll na página */
+const scrollReveal = ScrollReveal({
+  origin: 'top',
+  distance: '5px',
+  duration: 1500,
+  reset: true
+})
+
+scrollReveal.reveal(
+  `#home .image, #home .text,
+  #about .image, #about .text,
+  #services header, #services .card,
+  #contact .text, #contact .links,
+  footer .brand, footer .social
+  `,
+  { interval: 100 }
+)
+
 /* Botão voltar para o topo */
 const backToTopButton = document.querySelector('.back-to-top')
 
