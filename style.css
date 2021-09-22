@@ -496,13 +496,7 @@ footer .social a:hover {
     padding: 10rem 0;
   }
 
-  .section header,
-  #testimonials header {
-    max-width: 32rem;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  
 
   .button {
     height: 3.125rem;
@@ -584,12 +578,6 @@ footer .social a:hover {
     color: var(--base-color);
     align-items: center;
   
-  }
-
-  /* testimonials */
-  #testimonials .container {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   /* contact */
